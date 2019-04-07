@@ -1,6 +1,6 @@
-<?php require_once("Autoloader.php"); ?>
-
 <?php
+
+require_once("Autoloader.php");
 
 use Services\ProductDataService;
 use Services\CartService;
@@ -21,7 +21,7 @@ $cartService = new CartService();
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="Resources/js/main.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="Resources/styles/main.css">
+    <link rel="stylesheet" type="text/css" href="/Resources/styles/main.css">
 </head>
 
 <body>
